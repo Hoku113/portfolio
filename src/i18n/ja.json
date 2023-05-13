@@ -1,0 +1,16 @@
+{
+    "profile":{
+        "name": "内田北斗",
+        "major": "人工知能"
+    },
+
+    "company-project":{
+        "sugarcane": "サトウキビプロジェクト",
+        "ovaas": "OVAAS"
+    },
+
+    "personal-product":{
+        "prevneter": "Preventer",
+        "e-gate": "E-gate"
+    }
+}

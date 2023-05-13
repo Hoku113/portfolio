@@ -1,0 +1,16 @@
+{
+    "profile":{
+        "name": "Hokuto Uchida",
+        "major": "Artificial Inteligence"
+    },
+
+    "company-project":{
+        "sugarcane": "Sugarcane project",
+        "ovaas": "OVAAS"
+    },
+
+    "personal-product":{
+        "prevneter": "Preventer",
+        "e-gate": "E-gate"
+    }
+}
