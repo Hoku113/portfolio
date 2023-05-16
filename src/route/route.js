@@ -1,6 +1,6 @@
 import { Route, BrowserRouter, Routes, Link, } from "react-router-dom";
 import Home from "../pages/home";
-import Production from "../pages/production";
+import Production from "../component/production";
 
 const PageLink = () => {
     return (

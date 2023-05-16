@@ -5,11 +5,12 @@ const ContuctMe = () => {
     return (
         <>
         <h3>Contuct me</h3>
-        
-        <FaInstagram/>
-        <FaTwitter/>
-        <FaGithub/>
-        <FaFacebook/>
+        <div class="icon">
+            <FaInstagram/>
+            <FaTwitter/>
+            <FaGithub/>
+            <FaFacebook/>
+        </div>
         </>
     )
 }
