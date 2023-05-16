@@ -2,20 +2,19 @@
     background-color: white;
 }
 
-.flex {
+.profileflex {
     display: flex;
     margin: 0 0 0 20px;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
-.flex h2{
+.profileflex h2{
     margin: 10px 0 0;
     padding: 0;
     font-weight: bold;
 }
 
-.flex .text{
+.profileflex .text{
     text-align: left;
     margin: 40px 0 0 20px;
     padding: 40px 0 0 20px;

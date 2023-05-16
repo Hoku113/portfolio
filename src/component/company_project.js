@@ -8,8 +8,8 @@ const CompanyProject = () => {
     return (
         <>
             <div class="sugarcane">
-                <div class="flex">
-                    <h2>サトウキビプロジェクト</h2>
+                <div class="sugarcane-flex">
+                    <h3>サトウキビプロジェクト</h3>
                         <p>
                             NPO法人石西礁湖サンゴ礁基金より提供のプロジェクト<br/>
                             石垣島で問題となっているサンゴ礁の減少には、赤土流出の問題がある。<br/>
@@ -17,7 +17,7 @@ const CompanyProject = () => {
                             この問題を解決するために農薬を雑草にピンポイントにめがけて噴射するものを作った
                         </p>
                         <figure class="sugarcane-img">
-                                <img src={sugarcane} alt="sugarcane"/>
+                            <img src={sugarcane} alt="sugarcane"/>
                         </figure>
                 </div>
             </div>

@@ -12,7 +12,7 @@ const Profile = () => {
     return (
         <div class="profile">
             <h2>About me</h2>
-            <div class="flex">
+            <div class="profileflex">
                     <div class="text">
                         <ul id="name">name: 内田北斗</ul>   
                         <ul id="age">age: 21</ul>
