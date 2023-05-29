@@ -1,5 +1,7 @@
 import {FaGithub, FaTwitter, FaInstagram, FaFacebook} from "react-icons/fa"
 
+// css
+import "../css/profile.scss"
 
 const ContuctMe = () => {
     return (

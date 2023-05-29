@@ -13,8 +13,8 @@ const Profile = () => {
 
     return (
         <div class="profile">
+            <h2>About me</h2>
             <div class="profileflex">
-                <h2>About me</h2>
                     <div class="text">
                         <ul id="name">name: 内田北斗</ul>   
                         <ul id="age">age: 21</ul>
@@ -26,11 +26,13 @@ const Profile = () => {
                 </figure>
 
             </div>
-            <h3>Achivement</h3>
             <div class="achivement">
-                <img src={azureAI} />
-                <img src={azureData} />
-                <img src={azure} />
+                <h3>Achivement</h3>
+                <div class="img-list">
+                    <img src={azureAI} />
+                    <img src={azureData} />
+                    <img src={azure} />
+                </div>
             </div>
         </div>
     )
