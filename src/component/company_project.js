@@ -4,24 +4,10 @@ import sugarcane from "../assets/sugarcane.png"
 // css
 import "../css/company_project.scss"
 
-const CompanyProject = () => {
-    window.addEventListener("scroll", function() {
-        // get element for move animation
-        const elements = document.getElementsByClassName('sugarcane')
-
-        Array.prototype.forEach.call(elements, function (element) {
-            const elementTop = element.getBoundingClientReact().top();
-            const windowHeight = window.innerHeight;
-
-            if (elementTop - windowHeight <= 0){
-                element.classList.add("animated")
-            }
-        })
-    })
-
+const CompanyProject = () => {   
     return (
         <>
-            <div class="sugarcane animate">
+            <div class="sugarcane anim">
                 <div class="sugarcane-flex">
                     <h3>サトウキビプロジェクト</h3>
                         <p>

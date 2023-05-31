@@ -10,7 +10,8 @@ import "../css/personal_product.scss"
 const PersonalProduct = () => {
     return (
         <div>
-            <div class="preventer">
+            <div class="preventer anim">
+                <div class="preventer-flex">
                     <h3>Preventer</h3>
                     <p>
                         泥酔者が駅のホームから線路に落下することを防止するためのシステム<br/>
@@ -20,21 +21,22 @@ const PersonalProduct = () => {
                     <video width="480" height="480" controls>
                         <source src={video} type="video/mp4"/>
                     </video>
+                </div>
             </div>
 
-            <div class="egate">
-                <figure class="egate-img">
-                    <img src={egate} alt="egate"/>
-                </figure>
-                <h3>E-gate</h3>
-                <p>
-                    顔認証を利用した出席管理、入退出管理をするためのシステム<br/>
-                    WEBアプリケーションとして公開をすることで、普段使っているスマートフォンやタブレット、<br/>
-                    ノートpcですぐに実行することができます<br/>
-                </p>
+            <div class="egate anim">
+                <div class="egate-flex">
+                    <figure class="egate-img">
+                        <img src={egate} alt="egate"/>
+                    </figure>
+                    <h3>E-gate</h3>
+                    <p>
+                        顔認証を利用した出席管理、入退出管理をするためのシステム<br/>
+                        WEBアプリケーションとして公開をすることで、普段使っているスマートフォンやタブレット、<br/>
+                        ノートpcですぐに実行することができます<br/>
+                    </p>
+                </div>
             </div>
-
-
         </div>
 
     )

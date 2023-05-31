@@ -1,9 +1,5 @@
-p{
-    text-align: justify;
-}
-
 // flex
-.preventer {
+.preventer-flex {
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -14,12 +10,7 @@ p{
    margin-top: 10%;
 }
 
-.preventer h3{
-    font-size: 35px;
-    margin-bottom: 0;
-}
-
-.egate {
+.egate-flex {
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -28,6 +19,11 @@ p{
     justify-content: center;
 
     margin-top: 10%;
+}
+
+.preventer h3{
+    font-size: 35px;
+    margin-bottom: 0;
 }
 
 .egate h3{
@@ -42,4 +38,8 @@ p{
 
 .egate-img img{
     height: 250px;
+}
+
+p{
+    text-align: justify;
 }

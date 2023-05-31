@@ -2,8 +2,6 @@
 .sugarcane {
     margin: auto;
     padding: auto;
-
-    animation: Slidein 1.6s ;
 }
 
 .sugarcane h3{
@@ -19,34 +17,9 @@
     align-content: center;
     justify-content: center;
 
-    margin: 10% 0 0 0 ;
-
-    
+    margin: 10% 0 0 0 ; 
 }
 
 .sugarcane-img img{
     height: 300px;
-}
-
-// animation
-
-.animated {
-    --webkit-transform: translateZ(0);
-    animation-name: Slidein;
-    animation-duration: 1.0s;
-    animation-timing-function: ease-in;
-    position: inherit;
-    display: block;
-    opacity: 1;
-}
-
-@keyframes Slidein {
-    from{
-        opacity: 0;
-        left: -100px;
-    }
-    to {
-        opacity: 1;
-        left: 0;
-    }
 }
