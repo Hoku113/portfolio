@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom"
+
 // image 
 import sugarcane from "../assets/sugarcane.png"
 
@@ -9,7 +11,7 @@ const CompanyProject = () => {
         <>
             <div class="sugarcane anim">
                 <div class="sugarcane-flex">
-                    <h3>サトウキビプロジェクト</h3>
+                    <h3><Link to="sugarcane">サトウキビプロジェクト</Link></h3>
                         <p>
                             NPO法人石西礁湖サンゴ礁基金より提供のプロジェクト<br/>
                             石垣島で問題となっているサンゴ礁の減少には、赤土流出の問題がある。<br/>
