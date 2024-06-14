@@ -1,7 +1,4 @@
 name: Azure Static Web Apps CI/CD
-strategy:
-  matrix:
-    node-version: ['18.x', '20.x']
 
 on:
   push:
