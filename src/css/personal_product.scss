@@ -1,0 +1,47 @@
+// flex
+.preventer-flex {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+   margin-top: 10%;
+}
+
+.egate-flex {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+    margin-top: 10%;
+}
+
+.preventer h3{
+    font-size: 35px;
+    color: black;
+    margin-bottom: 0;
+}
+
+.egate h3{
+    font-size: 35px;
+    color: black;
+    margin-bottom: 0;
+}
+
+.preventer-img img{
+    height: 300px;
+    
+}    
+
+.egate-img img{
+    height: 250px;
+}
+
+p{
+    text-align: justify;
+}
