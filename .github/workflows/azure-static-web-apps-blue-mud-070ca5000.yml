@@ -15,6 +15,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     steps:
+        with: 
+          node-version: v18
       - uses: actions/checkout@v3
         with:
           submodules: true
