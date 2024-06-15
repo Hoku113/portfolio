@@ -21,7 +21,7 @@ jobs:
           lfs: false
           node-version: v20
 
-      - nmae: Install package
+      - name: Install package
         run: npm ci
 
       - name: Build And Deploy
