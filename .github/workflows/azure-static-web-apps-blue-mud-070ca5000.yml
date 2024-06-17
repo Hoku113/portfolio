@@ -21,11 +21,11 @@ jobs:
           lfs: false
           node-version: v20
 
-      - name: Install package
-        run: |
-          npm ci
-          npm run build
-          npm install -g serve
+      # - name: Install package
+      #   run: |
+      #     npm ci
+      #     npm run build
+      #     npm install -g serve
 
       - name: Build And Deploy
         id: builddeploy
@@ -36,10 +36,10 @@ jobs:
           action: "upload"
           ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
-          skip_app_deploy: true
-          app_location: "/build/" # App source code path
+          # skip_app_deploy: true
+          app_location: "" # App source code path
           api_location: "" # Api source code path - optional
-          output_location: "" # Built app content directory - optional
+          output_location: "/build/" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
           
 
