@@ -24,6 +24,9 @@ const Production = () => {
                         break;
                     case "egate":
                         element.classList.add("right-animated")
+                        break;
+                    default:
+                        break;
                 }              
             }
         })

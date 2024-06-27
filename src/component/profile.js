@@ -58,9 +58,9 @@ const Profile = () => {
             <div class="achivement">
                 <h3>Achivement</h3>
                 <div class="img-list">
-                    <img src={azureAI} />
-                    <img src={azureData} />
-                    <img src={azure} />
+                    <img src={azureAI} alt="azure AI fundamentals"/>
+                    <img src={azureData} alt="azure Data fundamentals"/>
+                    <img src={azure} alt="azure fundamentals"/>
                 </div>
             </div>
         </div>

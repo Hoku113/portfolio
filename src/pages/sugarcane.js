@@ -33,10 +33,10 @@ const Sugarcane = () => {
 
             <div class="sample">
                <p>AIを用いて雑草を検出している様子</p>
-               <img src="" alt="AI result"/> 
+               {/* <img src="" alt="AI result"/>  */}
                
                <p>実際に作成した筐体</p>
-               <img src="" alt="machine image"/>
+               {/* <img src="" alt="machine image"/> */}
             </div>
 
          </div>

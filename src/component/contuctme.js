@@ -1,4 +1,4 @@
-import {FaGithub, FaTwitter, FaInstagram, FaFacebook, FaLinkedin} from "react-icons/fa"
+import {FaGithub, FaTwitter, FaFacebook, FaLinkedin} from "react-icons/fa"
 import { Instagram } from "./instagram_gradation"
 // css
 import "../css/profile.scss"
