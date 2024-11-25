@@ -2,9 +2,8 @@ import { Route, BrowserRouter, Routes} from "react-router-dom";
 
 // page file
 import Home from "../pages/home";
-import Preventer from "../pages/preventer";
-import Egate from "../pages/egate";
-import Sugarcane from "../pages/sugarcane";
+import ProjectDetail from "../component/project_detail"
+
 
 const PageLink = () => {
     return (
@@ -12,9 +11,7 @@ const PageLink = () => {
         <BrowserRouter>
             <Routes>
                 <Route path={'/'} element={<Home/>}/>
-                <Route path={'/preventer'} element={<Preventer/>}/>
-                <Route path={'/egate'} element={<Egate/>}/>
-                <Route path={'/sugarcane'} element={<Sugarcane/>}/>
+                <Route path={'/project/:id'} element={<ProjectDetail/>} />
             </Routes>
         </BrowserRouter>
         </div>

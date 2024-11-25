@@ -1,15 +1,13 @@
 import Profile from "../component/profile"
-import Production from "../component/production"
+import ProjectList from "../component/project_list"
 
 const Home = () => {
     return (
         <>
         <h1>My portfolio</h1>
 
-        {/* background images */}
-        
         <Profile/>
-        <Production/>
+        <ProjectList />
         </>
     )
 }

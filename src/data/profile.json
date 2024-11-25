@@ -1,0 +1,14 @@
+{
+    "name": "内田北斗",
+    "myImage": "myImageLink",
+    "birthday": {
+        "year": 2002, 
+        "month": 1,
+        "date": 13
+    },
+    "skills": [
+        "機械学習", 
+        "連合学習",
+        "クラウドベース開発"
+    ]
+}

@@ -1,20 +1,11 @@
 import ContuctMe from "./contuctme"
 
-// images
-import myimage from "../assets/myimage.png"
-import azureAI from "../assets/azureAI.png"
-import azureData from "../assets/azureData.png"
-import azure from "../assets/azure.png"
+// data
+import achive from "../data/achivement.json"
+import profile from "../data/profile.json"
 
 // css
 import "../css/profile.scss"
-
-// set birthday
-const birthday = {
-    year: 2002,
-    month: 1,
-    date: 13
-}
 
 // calc birthday
 const CalcBirthDay = (birthday) =>{
@@ -41,27 +32,30 @@ const CalcBirthDay = (birthday) =>{
 const Profile = () => {
 
     return (
-        <div class="profile">
+        <div className="profile">
             <h2>About me</h2>
-            <div class="profileflex">
-                    <div class="text">
-                        <ul id="name">name: 内田北斗</ul>
-                        <CalcBirthDay param={birthday}></CalcBirthDay>
-                        <ul id="major">major: Artificial Inteligence</ul>
+            <div className="profileflex">
+                    <div className="text">
+                        <ul id="name">name: {profile.name}</ul>
+                        <CalcBirthDay param={profile.birthday}></CalcBirthDay>
+                        <ul id="major">
+                            {profile.skills.map((skill) => skill + " ")}
+                        </ul>
+
                         <ContuctMe/>
                     </div>
-                <figure  class="myimage">
-                    <img src={myimage} alt="myimage"/>
+                <figure  className="myimage">
+                    <img src={profile.myImage} alt="myimage"/>
                 </figure>
 
             </div>
-            <div class="achivement">
+            <div className="achivement">
                 <h3>Achivement</h3>
-                <div class="img-list">
-                    <img src={azureAI} alt="azure AI fundamentals"/>
-                    <img src={azureData} alt="azure Data fundamentals"/>
-                    <img src={azure} alt="azure fundamentals"/>
-                </div>
+                    {achive.map((achive) => 
+                        <div className="img-list">
+                            <img src={achive.img} alt={achive.title}/>
+                        </div>
+                    )}
             </div>
         </div>
     )
