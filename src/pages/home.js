@@ -1,14 +1,23 @@
+import Header from "../component/header"
 import Profile from "../component/profile"
-import ProjectList from "../component/project_list"
+import Projects from "../component/projects"
+import ContuctMe from "../component/contuct_me"
+import SkillSets from "../component/skill_sets"
+
+// css
+import "../css/home.css"
 
 const Home = () => {
     return (
-        <>
-        <h1>My portfolio</h1>
-
-        <Profile/>
-        <ProjectList />
-        </>
+        <div>
+            <Header/>
+            <div className="main">
+                <Profile/>
+                <Projects/>
+                <SkillSets/>
+                <ContuctMe/>
+            </div>
+        </div>
     )
 }
 

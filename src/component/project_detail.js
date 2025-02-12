@@ -1,29 +1,37 @@
 // プロジェクト詳細ページ
 import { useParams } from "react-router-dom";
-import projects from "../data/project.json"
+import project_details from "../data/project_detail_list.json"
 
 const ProjectDetail = () => {
     const {id} = useParams();
-    const project = projects.find((proj) => proj.id === parseInt(id));
 
-    if (!project){
-        return (
-            <>
-                <h1> 404 Not Found</h1>
-                <p> This project is not abailable</p>
-            </>
-        )
-    }
+const Gallery = (images) => {
 
-    // TODO: 大まかなセクション、それに対する内容の記載
-    // TODO: ページデザインの立案
+    
+}
 
     return (
-        <div>
-            <h1>{project.title}</h1>
-            <img src={project.image} alt={project.title}/>
-            <p>{project.details}</p>
-        </div>
+    <div className="project-detail">
+        {project_details.map((project_detail) => (
+            <div className="project-item">
+                <div className="title">
+                    <h3>{project_detail.Title}</h3>
+                </div>
+
+                <div className="detail">
+                    <p>{project_detail.Detail}</p>
+                </div>
+
+                <div className="skill">
+                    <p>{project_detail.Tools}</p>
+                </div>
+
+                <div className="image list">
+                    
+                </div>
+            </div>
+        ))}
+    </div>
     )
 }
 

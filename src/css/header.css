@@ -1,0 +1,58 @@
+/* src/compnent/header.js*/
+.header {
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #c0c0c0;
+    width: 100%;
+    height: 80px;
+    z-index: 9999;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-wrapper {
+    display: flex;
+    position: relative;
+    height: 100%;
+    max-width: 1440px;
+    margin: 0 auto ;
+}
+
+.nav-wrapper img{
+    margin: 0px 400px 0px 0px;
+}
+
+
+ul {
+    display: flex;
+    font-size: 20px;
+    font-family:unset;
+    list-style: none;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    width: 720px;
+    height: 80px;
+}
+
+li {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+li:hover{
+    background-color: #8adda6; 
+    color: white;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    justify-content: center;
+    align-items: center;
+}

@@ -11,7 +11,6 @@ const PageLink = () => {
         <BrowserRouter>
             <Routes>
                 <Route path={'/'} element={<Home/>}/>
-                <Route path={'/project/:id'} element={<ProjectDetail/>} />
             </Routes>
         </BrowserRouter>
         </div>
