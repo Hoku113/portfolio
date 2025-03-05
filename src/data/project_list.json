@@ -56,17 +56,17 @@
     {
         "id": 3,
         "title": "石垣島プロジェクト",
-        "title_image": "",
+        "title_image": "https://hoku.blob.core.windows.net/portfolio-app/IshigakiJima/image6.png",
         "detail": "test",
         "tools": "Python, Javascript, Vue.js, Azure, MySQL",
         "images": [
             {
-                "original": "",
-                "thumbnail": ""
+                "original": "https://hoku.blob.core.windows.net/portfolio-app/IshigakiJima/image5.jpeg",
+                "thumbnail": "https://hoku.blob.core.windows.net/portfolio-app/IshigakiJima/image5.jpeg"
             },            
             {
-                "original": "",
-                "thumbnail": ""
+                "original": "https://hoku.blob.core.windows.net/portfolio-app/IshigakiJima/image6.png",
+                "thumbnail": "https://hoku.blob.core.windows.net/portfolio-app/IshigakiJima/image6.png"
             },            
             {
                 "original": "",

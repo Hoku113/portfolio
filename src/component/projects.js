@@ -41,26 +41,32 @@ const ProjectDetail = (props) => {
 
     // 一致したプロジェクトの説明や画像を表示させる
     return (
-        <div id="modal" className="modal" onClick={(event)=>{event.stopPropagation()}}>
-            <div>
-                <h2>{props.title}</h2>
-                <p>{props.detail}</p>
-            </div>
+        <div className="modal" onClick={(event)=>{event.stopPropagation()}}>
+            <div className="view">
+                <div className="title_and_detail">
+                    <h2>{props.title}</h2>
+                    <p>{props.detail}</p>
+                </div>
 
-            <div>
-                <h2>使ったもの</h2>
-                <p>{props.tools}</p>
+                <div className="tools">
+                    <h2>使ったもの</h2>
+                    <p>{props.tools}</p>
+
+                </div>
+
+                <div className="gallery">
+                    <ReactImageGallery
+                        items={props.images}
+                        showPlayButton={false}
+                        showFullscreenButton={false}
+                        showThumbnails={true}
+                        showNav={true}
+                        showBullets={true}
+                        thumbnailPosition="top"
+                        additionalClass="custom-gallery"
+                    />
+                </div>
             </div>
-            <ReactImageGallery
-                items={props.images}
-                showPlayButton={false}
-                showFullscreenButton={false}
-                showThumbnails={true}
-                showNav={true}
-                showBullets={true}
-                thumbnailPosition="top"
-                additionalClass="custom-gallery"
-            />
         </div>
     )
 }
