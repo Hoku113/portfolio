@@ -1,9 +1,6 @@
 /* src/component/profile.js */
 .profile {
     background-color: white;
-}
-
-h2{
     margin-top: 10%;
 }
 
@@ -37,3 +34,5 @@ h2{
     width: 75%;
     object-fit: contain;  
 }
+
+

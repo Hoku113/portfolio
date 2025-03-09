@@ -54,7 +54,6 @@ const ProjectDetail = (props) => {
 
                 </div>
 
-                <div className="gallery">
                     <ReactImageGallery
                         items={props.images}
                         showPlayButton={false}
@@ -65,7 +64,6 @@ const ProjectDetail = (props) => {
                         thumbnailPosition="top"
                         additionalClass="custom-gallery"
                     />
-                </div>
             </div>
         </div>
     )
