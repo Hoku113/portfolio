@@ -2,7 +2,6 @@ import { Route, BrowserRouter, Routes} from "react-router-dom";
 
 // page file
 import Home from "../pages/home";
-import ProjectDetail from "../component/project_detail"
 
 
 const PageLink = () => {
