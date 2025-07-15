@@ -1,0 +1,184 @@
+[
+    {
+        "id": 1,
+        "title": "E-Gate",
+        "title_image": "https://hoku.blob.core.windows.net/portfolio-app/egate/egate.png",
+        "detail": "Microsoft x Intelゼミプロジェクト\n 授業の出席確認を自動化することで事務作業を減らせないか検討\n 当時はAzureのFaceAPIを使用して事前に登録された顔写真と同一人物か判定するAIを使用した。\nまたこのプロジェクトは世界中の学生が参加するIntel Global Impact Festivalのアイデア部門の賞を受賞した。\n精度としては60%-90%とまだまだ幅が広く課題が残る",
+        "link": ["https://hoku.blob.core.windows.net/portfolio-app/egate/egate.mp4"],
+        "tools": "Python, Javascript, Vue.js, Azure, MySQL",
+        "images": [
+            {
+                "original": "https://hoku.blob.core.windows.net/portfolio-app/egate/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202024-10-14%20211122.png",
+                "thumbnail": "https://hoku.blob.core.windows.net/portfolio-app/egate/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202024-10-14%20211122.png"
+            },            
+            {
+                "original": "https://hoku.blob.core.windows.net/portfolio-app/egate/image15.png",
+                "thumbnail": "https://hoku.blob.core.windows.net/portfolio-app/egate/image15.png"
+            },            
+            {
+                "original": "https://hoku.blob.core.windows.net/portfolio-app/egate/certificate1_2290.jpg",
+                "thumbnail": "https://hoku.blob.core.windows.net/portfolio-app/egate/certificate1_2290.jpg"
+            },            
+            {
+                "original": "https://hoku.blob.core.windows.net/portfolio-app/egate/certificate2_2289.jpg",
+                "thumbnail": "https://hoku.blob.core.windows.net/portfolio-app/egate/certificate2_2289.jpg"
+            }
+        ]
+    },
+
+    {
+        "id": 2,
+        "title": "Preventer",
+        "title_image": "https://hoku.blob.core.windows.net/portfolio-app/Preventer/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202025-01-15%20232912.png",
+        "detail": "Microsoft x Intelゼミのプロジェクト\n 電車の駅の人身事故の半数が泥酔者による落下事故ということを知り、泥酔者をあらかじめ検知できれば、理論上半減できるのではと考えこのプロジェクトを開始\n Intel OpenVinoの中にある3D骨格検出の機能を利用し、1フレーム前に検出した骨格の差分が一定数あれば泥酔者の可能性ありとみなすようにしている。",
+        "link": ["https://github.com/Hoku113/Preventer"],
+        "tools": "Python, OpenVINO",
+        "images": [
+            {
+                "original": "https://hoku.blob.core.windows.net/portfolio-app/Preventer/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202025-01-15%20232912.png",
+                "thumbnail": "https://hoku.blob.core.windows.net/portfolio-app/Preventer/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202025-01-15%20232912.png"
+            },            
+            {
+                "original": "https://hoku.blob.core.windows.net/portfolio-app/Preventer/image7.png",
+                "thumbnail": "https://hoku.blob.core.windows.net/portfolio-app/Preventer/image7.png"
+            },            
+            {
+                "original": "https://hoku.blob.core.windows.net/portfolio-app/Preventer/image21.png",
+                "thumbnail": "https://hoku.blob.core.windows.net/portfolio-app/Preventer/image21.png"
+            }
+        ]
+    },
+
+    {
+        "id": 3,
+        "title": "石垣島プロジェクト",
+        "title_image": "https://hoku.blob.core.windows.net/portfolio-app/IshigakiJima/image6.png",
+        "detail": "石西礁湖サンゴ礁基金提供プロジェクト\n AIモデルを用いて作物と雑草を判別し、雑草に除草剤を散布するロボットの開発を行った\n AIは物体検出モデルを用いて学習を行い、散布用ロボットも素材の準備から加工、組み立てまですべて自分たちで実施",
+        "link": [],
+        "tools": "Python, C, YOLOv7, Roboflow, Google Colab",
+        "images": [
+            {
+                "original": "https://hoku.blob.core.windows.net/portfolio-app/IshigakiJima/image5.jpeg",
+                "thumbnail": "https://hoku.blob.core.windows.net/portfolio-app/IshigakiJima/image5.jpeg"
+            },            
+            {
+                "original": "https://hoku.blob.core.windows.net/portfolio-app/IshigakiJima/image6.png",
+                "thumbnail": "https://hoku.blob.core.windows.net/portfolio-app/IshigakiJima/image6.png"
+            },            
+            {
+                "original": "",
+                "thumbnail": ""
+            },            
+            {
+                "original": "",
+                "thumbnail": ""
+            }
+        ]
+    },
+
+    {
+        "id": 4,
+        "title": "AI教育ツール開発",
+        "title_image": "https://hoku.blob.core.windows.net/portfolio-app/education_tool/image11.png",
+        "detail": "Intel提供プロジェクト\n AIを学ぶ上で大切なパーセプトロンを学ぶ教育ツールの作成に取り組みました。\n初学者方、小学生でも直感的で楽しく学んでもらうことを目標にweb上で動作する計算ゲームの開発に取り組んだ",
+        "link": ["https://ashy-cliff-003706610.5.azurestaticapps.net/"],
+        "tools": "C#, Unity, Azure",
+        "images": [
+            {
+                "original": "",
+                "thumbnail": ""
+            },            
+            {
+                "original": "",
+                "thumbnail": ""
+            },            
+            {
+                "original": "",
+                "thumbnail": ""
+            },            
+            {
+                "original": "",
+                "thumbnail": ""
+            }
+        ]
+    },
+
+    {
+        "id": 5,
+        "title": "連合学習 x LLM",
+        "title_image": "",
+        "detail": "Databricks japan提供プロジェクト\n 連合学習の仕組みを使ってLLMの学習が実行できるのかの検証を行った\n Rinna-gpt2を使用してファインチューニングを実施し学習できることを確認した。\nなおこのプロジェクトでは学習できたかを重点としているため精度に関しては考慮していない。\n",
+        "link": ["https://github.com/Hoku113/Federated-GPT2-finetune"],
+        "tools": "Python, Google Colab, flower, rinna-gpt2",
+        "images": [
+            {
+                "original": "",
+                "thumbnail": ""
+            },            
+            {
+                "original": "",
+                "thumbnail": ""
+            },            
+            {
+                "original": "",
+                "thumbnail": ""
+            },            
+            {
+                "original": "",
+                "thumbnail": ""
+            }
+        ]
+    },
+
+    {
+        "id": 6,
+        "title": "FLaaSの検討",
+        "title_image": "",
+        "detail": "Databricks japan提供プロジェクト\n 連合学習はセキュアに機械学習実行でき注目され始めているが、技術的制約が高く、幅広い専門知識が必要。\n この技術的制約の壁をなくすために誰でも連合学習が使用できるwebアプリが実現できるか検討した。\n 実施年度ではあくまで設計に落とし込むことが目的で現状アーキテクチャー図のみ作成\n 開発は未実施",
+        "link": ["https://github.com/Hoku113/FL_Project"],
+        "tools": "Python, flower, drawio, Azure",
+        "images": [
+            {
+                "original": "https://hoku.blob.core.windows.net/portfolio-app/FLaas/federation_system_architecture.drawio.png",
+                "thumbnail": "https://hoku.blob.core.windows.net/portfolio-app/FLaas/federation_system_architecture.drawio.png"
+            }
+        ]
+    },
+
+    {
+        "id": 7,
+        "title": "Stable Diffusion\nアプリ開発",
+        "title_image": "https://hoku.blob.core.windows.net/portfolio-app/Diffusion/site2.png",
+        "detail": "DALL-Eのようにプロンプトから画像を生成するWebアプリを作ってみたくなったので開発。\n streamlitのセクションの機能を利用して、複数回プロンプトをモデルに送信できるようにしている。\n モデルはhuggingfaceに公開されているものを拝借\n (詳細はGITHUBのドキュメントに記載)\n ローカル、Google Colab上で使用可能。",
+        "link": ["https://github.com/Hoku113/GenerateImageApp"],
+        "tools": "Python, streamlit, transformer",
+        "images": [
+            {
+                "original": "https://hoku.blob.core.windows.net/portfolio-app/Diffusion/site2.png",
+                "thumbnail": "https://hoku.blob.core.windows.net/portfolio-app/Diffusion/site2.png"
+            },            
+            {
+                "original": "https://hoku.blob.core.windows.net/portfolio-app/Diffusion/site.png",
+                "thumbnail": "https://hoku.blob.core.windows.net/portfolio-app/Diffusion/site.png"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "ポートフォリオ",
+        "title_image": "",
+        "detail": "このWebサイト。自身が0から考えていくことがすきで、背景の粒子はアイデア、経験、知識を現しています。\n無数にあるものを利用して一つのものを作るということをイメージしてこのサイトを作りました",
+        "link": ["https://github.com/Hoku113/GenerateImageApp"],
+        "tools": "Javascript, React, Azure, DALL-E, runwaym, figma, draw.io",
+        "images": [
+            {
+                "original": "",
+                "thumbnail": ""
+            },            
+            {
+                "original": "",
+                "thumbnail": ""
+            }
+        ]
+    }
+]

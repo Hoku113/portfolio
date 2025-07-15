@@ -1,0 +1,29 @@
+{
+    "Languages": [
+        "https://hoku.blob.core.windows.net/portfolio-app/profile/languages/C_Logo.png",
+        "https://hoku.blob.core.windows.net/portfolio-app/profile/languages/new-php-logo.png",
+        "https://hoku.blob.core.windows.net/portfolio-app/profile/languages/cpp_logo.png",
+        "https://hoku.blob.core.windows.net/portfolio-app/profile/languages/HTML5_Badge_256.png",
+        "https://hoku.blob.core.windows.net/portfolio-app/profile/languages/js.png",
+        "https://hoku.blob.core.windows.net/portfolio-app/profile/languages/python-logo-only.png"
+    ],
+
+    "Frameworks": [
+        "https://hoku.blob.core.windows.net/portfolio-app/profile/frameworks/logo.png",
+        "https://hoku.blob.core.windows.net/portfolio-app/profile/frameworks/react-logo.svg"
+
+    ],
+    "Tools": [
+        "https://hoku.blob.core.windows.net/portfolio-app/profile/tools/Git-Icon-1788C.png",
+        "https://hoku.blob.core.windows.net/portfolio-app/profile/tools/gitlab-logo-500.png",
+        "https://hoku.blob.core.windows.net/portfolio-app/profile/tools/postman-logo-orange-stacked.svg",
+        "https://hoku.blob.core.windows.net/portfolio-app/profile/tools/10018-icon-service-Azure-A.svg"
+    ],
+    
+    "Achivements": [
+        "https://hoku.blob.core.windows.net/portfolio-app/profile/azure.png",
+        "https://hoku.blob.core.windows.net/portfolio-app/profile/azureAI.png",
+        "https://hoku.blob.core.windows.net/portfolio-app/profile/achivements/azureData.png"
+    ]
+}
+

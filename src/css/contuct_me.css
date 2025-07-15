@@ -1,0 +1,73 @@
+/* src/component/contuct_me.js */
+
+.contactMe {
+    margin-top: 60px;
+}
+
+.input {
+    display: grid;
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+}
+
+
+.text label {
+    font-size: 30px;
+    border-bottom: 1px solid #d1d5db;
+    margin: 0 30px 0 30px;
+}
+
+.text input {
+    font-size: 24px;
+    border: none;
+    outline: 0;
+}
+
+.text-box {
+    margin: 30px 0 0 0;
+}
+
+.text-box label {
+    font-size: 30px;
+    border-bottom: 1px solid #d1d5db;
+    margin: 0 30px 0 30px;
+}
+
+.text-box textarea {
+    border: none;
+    outline: 0;
+}
+
+button {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    padding: 1rem 4rem;
+    font-weight: bold;
+    border-radius: 0.3rem;
+    border-bottom: 7px solid #0686b2;
+    background: #27acd9;
+    color: #fff;
+}
+
+button:hover {
+    margin-top: 6px;
+    border-bottom: 1px solid #0686b2;
+    border-bottom: 1px solid #d1d5db;
+    color: #fff;
+}
+
+.hidden {
+  opacity: 0;
+  transition: opacity 1s ease-out;
+}
+
+.fade-in {
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
+

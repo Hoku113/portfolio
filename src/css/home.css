@@ -1,0 +1,18 @@
+/* src/pages/home.js */
+
+.main {
+    overflow: auto;
+    scroll-snap-type: y proximity;
+    text-align: center;
+    padding: 80px 100px 0px 100px;
+    height: 100vh;
+    margin-top: -80px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    scroll-snap-align: center;
+    height: 100vh;
+}
