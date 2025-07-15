@@ -6,49 +6,47 @@ import "../css/skill_sets.css"
 
 const SkillSets = () => {
 
-    console.log(skills.Languages)
-
     return(
-        <div>
+        <div className="skills">
             <h2>Skill Sets</h2>
             <p>
                 現在のスキルセットです<br/>
                 レベル関係なくある程度使ったことがあるものをここに表示しています。
             </p>
-            <details>
+            <details className="Programming_Language">
                 <summary>Languages<span className="icon"></span></summary>
-                {skills.Languages.map((language) => (
-                    <div className="content">
+                <div className="content">
+                    {skills.Languages.map((language) => (
                         <img src={language} alt="language"/>
-                    </div>
-                ))}
+                    ))}
+                </div>
             </details>
 
-            <details>
+            <details className="Frameworks">
                 <summary>Frameworks<span className="icon"></span></summary>
-                {skills.Frameworks.map((framework) => (
-                    <div className="content">
+                <div className="content">
+                    {skills.Frameworks.map((framework) => (
                         <img src={framework} alt="framework"/>
-                    </div>
-                ))}    
+                    ))}
+                </div>
             </details>
 
-            <details>
+            <details className="Tools">
                 <summary>Tools<span className="icon"></span></summary>
-                {skills.Tools.map((tool) => (
-                    <div className="content">
+                <div className="content">
+                    {skills.Tools.map((tool) => (
                         <img src={tool} alt="tool"/>
-                    </div>
-                ))}
+                    ))}
+                </div>
             </details>
 
-            <details>
+            <details className="Achivements">
                 <summary>Achivements<span className="icon"></span></summary>
-                {skills.Achivements.map((achivement) => (
-                    <div className="content">
+                <div className="content">
+                    {skills.Achivements.map((achivement) => (
                         <img src={achivement} alt="achivement"/>
-                    </div>
-                ))}
+                    ))}
+                </div>
             </details>
         </div>
     )

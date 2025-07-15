@@ -1,5 +1,10 @@
 /* src/component/skill_sets.css */
 
+.skills {
+    margin: 0 auto;
+    width: 1200px;
+}
+
 details {
     border: 1px solid #555;
     margin-bottom: 10px;
@@ -18,7 +23,23 @@ summary {
 details summary::-webkit-details-marker {
     display: none;
 }
-  
+
+details .content {
+    animation-iteration-count: infinite;
+    overflow: hidden;
+    max-height: 0px;
+    transition: max-height 0.5s ease-in-out;
+}
+
+details[open] .content {
+    max-height: 150px;
+}
+
+details[open] summary {
+    background-color: aqua;
+    transition: all 0.5s ease-in-out;
+}
+
 .icon {
     display: block;
     position: absolute;
@@ -54,8 +75,40 @@ details[open] .icon {
     transform: rotate(180deg);
 }
 
+.Programming_Language .content {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2px, 0, 2px, 0;
+}
+
+.Frameworks .content {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2px, 0, 2px, 0;
+}
+
+.Tools .content {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2px, 0, 2px, 0;
+}
+
+.Achivements .content {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2px, 0, 2px, 0;
+}
+
 .content img {
-  width: 128px;
-  height: 128px;
-  object-fit: contain;
+    width: 128px;
+    height: 128px;
+    object-fit: contain;
 }

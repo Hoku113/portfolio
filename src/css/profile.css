@@ -1,10 +1,11 @@
 /* src/component/profile.js */
-.profile {
-    background-color: white;
-    margin-top: 10%;
+
+.my-info {
+    margin: 0 auto;
+
 }
 
-.profile-flex {
+.myinfo-flex { 
     display: flex;
     justify-content: center;
 }

@@ -1,44 +1,17 @@
+// react library
 import React, {useEffect, useCallback, useState} from "react"
 import ReactImageGallery from "react-image-gallery"
 
+// component
 import projects from "../data/project_list.json"
-import project_detail from "../data/project_detail_list.json"
 
-// css file
+// css
 import 'react-image-gallery/styles/css/image-gallery.css'
 import "../css/project_list.css"
 import "../css/modal.css"
 
-
-
-// jsonファイルの読み込み
-const Detail = (props) => {
-
-    const[projectDetail, setProjectDetail] = useState("")
-
-    project_detail.forEach(project_det => {
-
-        // クリックされたプロジェクト何かを判定する
-        if (project_det.Title == props.title){
-            console.log(project_det.Detail)
-            setProjectDetail(project_det.Detail)
-        }
-
-    });
-
-    return(
-        <div>
-            <p>{projectDetail}</p>
-        </div>
-    )
-
-}
-
 // プロジェクトの詳細のページ
 const ProjectDetail = (props) => {
-
-    console.log(projects)
-
     // 一致したプロジェクトの説明や画像を表示させる
     return (
         <div className="modal" onClick={(event)=>{event.stopPropagation()}}>
@@ -51,9 +24,9 @@ const ProjectDetail = (props) => {
                 <div className="tools">
                     <h2>使ったもの</h2>
                     <p>{props.tools}</p>
-
                 </div>
-
+                
+                <div className="areac">
                     <ReactImageGallery
                         items={props.images}
                         showPlayButton={false}
@@ -64,6 +37,7 @@ const ProjectDetail = (props) => {
                         thumbnailPosition="top"
                         additionalClass="custom-gallery"
                     />
+                </div>
             </div>
         </div>
     )
@@ -77,6 +51,7 @@ const Projects = () => {
     const[projectDetail, setProjectDetail] = useState("")
     const[tools, setTools] = useState("")
     const[images, setImages] = useState("")
+    const[visibleCount, setVisibleCount] = useState(3)
 
     const CloseModal = useCallback(() => {
         setIsDetailOpen(false)
@@ -102,20 +77,23 @@ const Projects = () => {
         event.stopPropagation()
     }
 
+    const handleShowMore = () => {
+        setVisibleCount((prevCount) => prevCount + 3);
+    }
+
     return (
-        <div>
+        <div className="projects">
             <h2> Projects </h2>
             <p>
-            これまで僕が携わってきたプロジェクトの一覧です<br/>
+            これまで携わってきたプロジェクトの一覧です<br/>
             画像クリックでプロジェクトの詳細が見れます
             </p>
             <div className="project-list">
-                    {projects.map((project) => (
-                        
-                            <div className="image-container" onClick={(event)=>{OpenModal(project.title, project.detail, project.tools, project.images, event)}}>                               
-                                <img src={project.title_image} alt={project.title}/>
-                                <div className="overlay">
-                                    <h3>{project.title}</h3>
+                {projects.slice(0, visibleCount).map((project) => (
+                    <div className="image-container" onClick={(event)=>{OpenModal(project.title, project.detail, project.tools, project.images, event)}}>
+                        <img src={project.title_image} alt={project.title}/>
+                        <div className="overlay">
+                            <h3>{project.title}</h3>
                                 </div>
                             </div>
                        
@@ -124,6 +102,11 @@ const Projects = () => {
             {isDetailOpen? <ProjectDetail onClick={() => {CloseModal()}} title={projectTitle} detail={projectDetail} images={images} tools={tools}/> : ""}
 
             </div>
+            {visibleCount < projects.length && (
+                <button className="show-more" onClick={handleShowMore}>
+                    もっと見る
+                </button>
+            )}
         </div>
     );
 }

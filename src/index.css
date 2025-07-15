@@ -7,3 +7,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000035;
+  background-size: cover; /* 背景画像をカバーする */
+  background-position: center; /* 背景画像の位置を中央に設定 */
+  color: white; /* テキストの色を指定 */
+}

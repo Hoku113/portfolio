@@ -6,10 +6,9 @@ import "../css/profile.css"
 
 const Profile = () => {
     return (
-        <div className="profile">
+        <div className="my-info">
             <h2>About me</h2>
-
-            <div className="profile-flex">
+            <div className="myinfo-flex">
                 {/* 自分の写真 */}
                 <figure  className="my-image">
                         <img src={profile.myImage} alt="myimage"/>
